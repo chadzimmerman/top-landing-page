@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+a {
+    color: #f9faf8;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.panel-1 {
+    background-color: #1F2937;
+}
+
+.secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.card {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.Sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
