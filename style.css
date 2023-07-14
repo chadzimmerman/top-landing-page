@@ -6,29 +6,29 @@ body {
     padding: 0px;
 }
 
-header {
-    background-color: #1F2937;
-    display: flex;
-    color: #f9faf8;
-    font-size: 24px;
-    justify-content: flex-end;
-    margin: 0;
-}
-
 .nav-list {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 1rem 0;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-}
-
-.nav-item:first-child {
+  }
+  
+  .nav-item {
+    list-style: none;
+    margin-right: 4rem;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #f9faf8
+  }
+  
+  .nav-item:first-child {
     margin-right: auto;
-}
-
-.nav-item {
-    display: flex;
-    margin-right: 2rem;
-    gap: 200px; 
-}
+    margin-left: 10rem;
+  }
 
 ul {
     list-style-type: none;
@@ -51,14 +51,24 @@ a {
 }
 
 .information-header {
+    display: flex;
     font-size: 36px;
     font-weight: 700;
     color: #1F2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    align-items: center;
+    justify-content: space-between
 }
 
 .card {
     color: #e5e7eb;
     font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hero-main-text {
@@ -73,12 +83,19 @@ a {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-
 }
+
+.quote-main {
+    padding: 50px 100px;
+}
+
 
 .call-to-action {
     background-color: #3882f6;
     color: #f9faf8;
+    padding: 15px 32px;
+    margin: 55px 100px;
+    border-radius: 10px;
 }
 
 .Sign-up {
