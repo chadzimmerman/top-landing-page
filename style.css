@@ -3,19 +3,36 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    padding: 0px;
 }
 
-.header {
+header {
     background-color: #1F2937;
-}
-
-.header-logo {
+    display: flex;
     color: #f9faf8;
     font-size: 24px;
+    justify-content: flex-end;
+    margin: 0;
 }
 
-ul > li {
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+}
+
+.nav-item {
+    display: flex;
+    margin-right: 2rem;
+    gap: 200px; 
+}
+
+ul {
     list-style-type: none;
+    display: flex;
 }
 
 a {
@@ -72,4 +89,7 @@ a {
 .footer {
     background-color: #1F2937;
     color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
